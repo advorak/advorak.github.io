@@ -3,7 +3,7 @@
 /*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
-
+body { color: blue;}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -328,6 +328,10 @@ Full-Width Styles
   text-indent: -5000px;
   overflow: hidden;
   background: url(../images/sprite_download.png) no-repeat bottom left;
+
+  &:hover {
+    background: url(../images/sprite_download.png) no-repeat top left;
+  }
 }
 
 .tar_download_link {
@@ -339,14 +343,10 @@ Full-Width Styles
   overflow: hidden;
   background: url(../images/sprite_download.png) no-repeat bottom right;
   margin-left: 10px;
-}
 
-.zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
+  &:hover {
+    background: url(../images/sprite_download.png) no-repeat top right;
+  }
 }
 
 #main_content_wrap {

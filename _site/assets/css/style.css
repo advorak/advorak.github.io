@@ -1,0 +1,14 @@
+.container-fluid #project_tagline { color: #ffffff; }
+.container-fluid, .container-fluid body { background-color: #212121; }
+.container-fluid header { max-width: 640px; }
+.container-fluid header, .container-fluid header footer { margin: 0 auto; padding: 50px 10px 30px 10px; }
+.container-fluid header a { text-decoration: none; color: #007bff; font-weight: bold; font-size: 42px; }
+.container-fluid header a:hover { text-decoration: underline; }
+.container-fluid header h1 { margin: 0 auto; }
+
+body { color: #ffffff; background-color: #212121; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; }
+
+#main_content_wrap { padding: 2em; max-height: 50%; }
+
+footer ul { padding: 3em; list-style: none; }
+footer ul li:first-child { color: white; font-weight: bolder; }
