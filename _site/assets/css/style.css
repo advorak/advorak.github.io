@@ -11,3 +11,5 @@ body { color: #ffffff; background-color: #212121; font-family: -apple-system,Bli
 
 footer ul { padding: 3em; list-style: none; }
 footer ul li:first-child { color: white; font-weight: bolder; }
+
+.toast { display: none; position: fixed; right: 1em; bottom: 1em; }
